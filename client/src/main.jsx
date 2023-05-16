@@ -7,6 +7,7 @@ import {
 } from "react-router-dom"
 import TaskPage from './pages/TaskPage.jsx';
 import TaskFormPage from './pages/TaskFormPage.jsx';
+import { Toaster } from 'react-hot-toast';
 
 import './index.css'
 
@@ -31,6 +32,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className='container mx-auto'>
+      <RouterProvider router={router} />
+      <Toaster />
+    </div>
   </React.StrictMode>,
 )

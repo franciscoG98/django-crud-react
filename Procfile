@@ -1,0 +1,1 @@
+web: python3 manage.py migrate && python3 manage.py collectstatic && gunicorn django_crud_api.wsgi
