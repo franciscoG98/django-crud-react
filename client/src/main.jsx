@@ -23,6 +23,10 @@ const router = createBrowserRouter([
     path: "/tasks-create",
     element: <TaskFormPage />,
   },
+  {
+    path: "/tasks/:id",
+    element: <TaskFormPage />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
