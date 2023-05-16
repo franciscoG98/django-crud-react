@@ -1,10 +1,11 @@
 import Navigation from "../components/Navigation"
+import TaskList from "../components/TaskList"
 
 const TaskPage = () => {
   return (
     <>
         <Navigation />
-        <h2>TaskPage</h2>
+        <TaskList />
     </>
   )
 }
