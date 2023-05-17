@@ -25,7 +25,6 @@ Django==4.2.1
 django-cors-headers==4.0.0
 djangorestframework==3.14.0
 dnspython==1.16.0
-duplicity==0.8.11.1566
 entrypoints==0.3
 fasteners==0.14.1
 filelock==3.12.0
