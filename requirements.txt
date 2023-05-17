@@ -15,7 +15,6 @@ constantly==15.1.0
 coreapi==2.3.3
 coreschema==0.0.4
 cryptography==2.8
-cupshelpers==1.0
 dbus-python==1.2.16
 decorator==4.4.2
 defer==1.0.6
